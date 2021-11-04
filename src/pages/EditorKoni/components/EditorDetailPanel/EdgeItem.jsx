@@ -22,7 +22,7 @@ class KeyEdge extends React.Component {
                   ['L', endPoint.x, endPoint.y],
                 ],
                 lineWidth:3,
-                stroke:"#555cf1",
+                stroke:"#7376e7",
               },
             });
             return keyShape;

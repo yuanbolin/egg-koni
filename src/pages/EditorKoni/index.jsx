@@ -5,6 +5,7 @@ import EditorMinimap from './components/EditorMinimap';
 import { KoniContextMenu } from './components/EditorContextMenu';
 import DetailForm from './components/EditorDetailPanel/DetailForm';
 import KeyEdge from "@/pages/EditorKoni/components/EditorDetailPanel/EdgeItem";
+import KeyNode from "@/pages/EditorKoni/components/EditorDetailPanel/NodeItem";
 import { KoniItemPanel } from './components/EditorItemPanel';
 import { KoniToolbar } from './components/EditorToolbar';
 import styles from './index.less';
@@ -14,6 +15,7 @@ export default () => (
   <PageContainer content="拓扑结构图是指由网络节点设备和通信介质构成的网络结构图">
     <GGEditor className={styles.editor}>
       <KeyEdge/>
+      <KeyNode/>
       <Row className={styles.editorHd}>
         <Col span={24}>
           <KoniToolbar />

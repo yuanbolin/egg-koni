@@ -97,9 +97,11 @@ class DetailForm extends React.Component {
       return {
         type: 'node',
         size: '70*70',
-        shape: '管网自建',
+        shape: 'custom-node',
         color: '#69C0FF',
         label: data[1],
+        labelOffsetY: 20,
+        icon: "//img.alicdn.com/tfs/TB1gXH2ywHqK1RjSZFPXXcwapXa-200-200.svg",
         x: 55,
         y: 55,
         id: `${parseInt(Math.random() * 250)}`,
@@ -115,9 +117,11 @@ class DetailForm extends React.Component {
       return {
         type: 'node',
         size: '70*70',
-        shape: '管网自建',
+        shape: 'custom-node',
         color: '#FA8C16',
         label: data[1],
+        labelOffsetY: 20,
+        icon: "//img.alicdn.com/tfs/TB1OzAmyyLaK1RjSZFxXXamPFXa-200-200.svg",
         x: 55,
         y: 55,
         id: `${parseInt(Math.random() * 250)}`,
@@ -133,7 +137,7 @@ class DetailForm extends React.Component {
       return {
         type: 'node',
         size: '70*70',
-        shape: '管网自建',
+        shape: 'custom-node',
         color: '#5CDBD3',
         label: data[1],
         x: 55,
@@ -151,7 +155,7 @@ class DetailForm extends React.Component {
       return {
         type: 'node',
         size: '70*70',
-        shape: '管网自建',
+        shape: 'custom-node',
         color: '#B37FEB',
         label: data[1],
         x: 55,
